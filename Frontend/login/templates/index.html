@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css' ) }}" type="text/css" media="all">
+<!-- bootstrap core css -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css' ) }}" />
+<!-- font awesome style -->
+<link href="{{ url_for('static', filename='css/font-awesome.min.css' ) }}" rel="stylesheet" />
+
+<!-- Custom styles for this template -->
+<link href="{{ url_for('static', filename='css/style.css' ) }}" rel="stylesheet" />
+<!-- responsive style -->
+<link href="{{ url_for('static', filename='css/responsive.css' ) }}" rel="stylesheet" />
+
+</head>
+<body >
+    <section class="vh-100" style="background-color: #508bfc;">
+      <form action="/login" method="post">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+      
+                  <h3 class="mb-5">Sign in</h3>
+      
+                  <div class="form-outline mb-4">
+                    <input type="text" id="email" name="email" class="form-control form-control-lg" />
+                    <label class="form-label" for="email">Role</label>
+                  </div>
+      
+                  
+                  <button class="btn btn-primary btn-lg btn-block" type="submit" name="send">Login</button>
+      
+                  <hr class="my-4">
+      
+                
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+        
+      </section>
+      
+</body>
+</html>

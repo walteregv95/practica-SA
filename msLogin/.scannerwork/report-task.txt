@@ -1,0 +1,6 @@
+projectKey=practica3mslogin
+serverUrl=http://35.230.37.246:9000
+serverVersion=7.9.1.27448
+dashboardUrl=http://35.230.37.246:9000/dashboard?id=practica3mslogin
+ceTaskId=AYFeMcrmJQ4Gyo48qZHO
+ceTaskUrl=http://35.230.37.246:9000/api/ce/task?id=AYFeMcrmJQ4Gyo48qZHO
